@@ -1,0 +1,49 @@
+header {
+  background-color: teal;
+  height: auto;  
+}
+
+main {
+    background-color: bisque;
+    height: 150px;
+}
+
+footer {
+    background-color: navy;
+    height: 150px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;  
+}
+
+.blueSky {
+    margin-top: 10px;
+    padding: 0;
+    font-style: center;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.liNavTop {
+display: inline-block;
+padding: 10px 25px;
+}
+
+.liNavTop a {
+    color: white;
+    text-decoration: none;
+}
+
+.liNavTop a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
